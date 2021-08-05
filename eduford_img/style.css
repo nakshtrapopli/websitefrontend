@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.text-box{
+	color: white;
+	width: ;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+
+pre {
+font-size: 30px;
+}
+
+nav{
+	padding: 2% 4%;
+	height: 7%;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/Users/nakshtrapopli/Desktop/eduford_img/untitled folder/banner.png");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.text-box h1{
+	font-size: 62px;
+}
+
+.text-box p{
+	margin: 10px; 0; 40px;
+	font-size: 14px;
+	color: white;
+
+	} 
+
+
+.hero-btn{
+	display: inline-block;
+	border: solid 1px;
+	color: white;
+	font-family: sans-serif;
+	padding: 12px 34px;
+	text-decoration: blink;
+	font-size: 13px;
+	position: relative;
+}
+
+.hero-btn:hover{
+	border: 1px solid;
+	background: orange;
+	transition: 0.5s;
+
+
+}
+
+
+.nav-link:hover{
+
+	background: orange;
+	transition: 0.5s;
+
+}
+
+
+.course{
+	padding-top: 70px;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+.card-deck{
+
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	background: #fff3f3;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 20px 10px 10px 12px;
+	border: 0px;
+	flex-basis: 31%;
+	transition: 0.5s;
+
+}
+
+.card-body{
+	border: 0px;
+}
+
+.card:hover{
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 700px){
+	.card-deck{
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+}
+
+
+
+
+
+
+.campus{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.campus-col {
+	flex-basis: 32%;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.campus-col img{
+	width: 100%;
+	border-radius: 10px;
+	display: block;
+}
+
+.layer{
+	background: transparent;
+	position: absolute;
+	left: 5;
+	top: 0;
+	transition: 0.5s;
+	height: 100%;
+	width: 93.5%;
+	border-radius: 10px;
+
+
+
+
+
+}
+
+.layer h3{
+	font-family: cursive;
+	width: 100%;
+	transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+	font-size: 26px;
+	color: white;
+	bottom: 0%;
+	opacity: 0;
+	transition: 1s;
+
+	}
+
+
+
+.layer:hover{
+	background: rgba(226, 0, 0, 0.7);
+
+}
+
+.layer:hover h3{
+	bottom: 49%;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+.facilities{
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+
+}
+
+.facilities-text{
+	padding-top: 40px;
+}
+
+.aboutussection{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/Users/nakshtrapopli/Desktop/eduford_img/untitled folder/banner2.jpg");
+	width: 80%;
+	height: 80%;
+	margin: 100px auto;
+	background-position: center;
+	background-size: cover;
+	padding: 110px 0;
+	border-radius: 10px;
+	
+
+}
+
+
+.about{
+	color: white;
+	text-align: center;
+	
+}
+
+.about h1{
+	font-size: 50px;
+	font-family: monospace;
+}
+
+
+
+
+
+
+
+
+.footer{
+	margin-top: 30px;
+	width: 80%;
+	margin: auto;
+	align-content: center;
+	text-align: center;
+
+}
+
+.footer h1{
+	font-size: 40px;
+	font-weight: 1px;
+}
+
+.icons .fa{
+	color: #f44336;
+	padding: 20px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 18px;
+
+}
+
+.footer p{
+	
+    font-weight:lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
